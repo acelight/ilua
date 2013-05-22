@@ -1,0 +1,14 @@
+Lua Readline Binding
+====================
+
+Description:
+A simple readline binding for Lua, originally written by Steve Donovan.
+This is *hopefully* an updated version of the binding. It should be compatible with Lua 5.2.
+
+Changes:
+- Includes changes from Reuben Thomas's rlcompleter
+- A minor change to readline.c to get it to compile with 5.2 
+- A Make file is included (I'm on x64 - might need to be difference for i686)
+
+Note:
+I'm not supporting the ilua.lua - just readline.c
