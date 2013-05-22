@@ -1,13 +1,10 @@
-ILUA License
-------------
+The readline component was based on code, from on Ilua by Steve Donovan and Chris Hixon; 
+and lua-rlcompleter by Reuben Thomas <rrt@sc3d.org>
 
-ILUA is licensed under the terms of the MIT license reproduced below.
-This means that Lua is free software and can be used for both academic
-and commercial purposes at absolutely no cost.
+Copyright (C) 2011 Reuben Thomas <rrt@sc3d.org>
+Copyright (C) 2007-2010  Steve Donovan, Chris Hixon
 
 ===============================================================================
-
-Copyright (C) 2007-2010  Steve Donovan, Chris Hixon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
