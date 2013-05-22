@@ -9,6 +9,7 @@
 #include <readline/history.h>
 
 static int f_readline (lua_State *L) {
+
     const char* prompt = lua_tostring(L,1);
     char* line = readline(prompt);
     lua_pushstring(L, line);
@@ -17,6 +18,7 @@ static int f_readline (lua_State *L) {
 };
 
 static int f_add_history (lua_State *L) {
+
     const char* line = lua_tostring(L,1);
     add_history(line);
     return 0;
